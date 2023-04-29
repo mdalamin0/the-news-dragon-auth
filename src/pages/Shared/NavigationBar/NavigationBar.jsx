@@ -30,7 +30,7 @@ const NavigationBar = () => {
                             {user ?
                                 <Button onClick={handleLogOut} variant="secondary">Logout</Button> :
                                 <Link to='/login'>
-                                    <Button variant="secondary"> Login </Button>
+                                    <Button variant="secondary rounded-0"> Login </Button>
                                 </Link>
                             }
                         </Nav>
